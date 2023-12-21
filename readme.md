@@ -1,4 +1,4 @@
-![Vercel](https://vercelbadge.vercel.app/api/mritunjaysaha/wordle-ts)
+
 
 ## Wordle
 
