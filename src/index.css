@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+#toggle:checked ~ label span.toggle-dot {
+    @apply translate-x-5;
+}
+
+#toggle:focus ~ label span.toggle-dot {
+    @apply ring ring-violet-light;
+}
+
+@tailwind utilities;
+
+.react-responsive-modal-overlay,
+.react-responsive-modal-container,
+.react-responsive-modal-modal {
+    animation-fill-mode: forwards !important;
+}
