@@ -36,7 +36,7 @@ function App() {
     useEffect(() => {
         window.addEventListener('keyup', handleKeyup);
 
-        // remove access to keyboard after correct guess
+        // remove access to keyboard after correct guesses.
         if (isCorrect || turn > 5) {
             setKeyboardEnable(false);
             window.removeEventListener('keyup', handleKeyup);
