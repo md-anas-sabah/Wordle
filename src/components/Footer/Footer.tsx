@@ -7,9 +7,9 @@ export const Footer = () => {
                 Made by&nbsp;
                 <a
                     className='flex items-center justify-center'
-                    href='https://github.com/mritunjaysaha'
+                    href='https://github.com/md-anas-sabah'
                 >
-                    Mritunjay&nbsp;
+                    Md Anas Sabah&nbsp;
                     <span className='text-white-500 hover:underline'>
                         <IconGitHub className='fill-current h-5 w-5' />
                     </span>
