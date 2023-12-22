@@ -56,9 +56,11 @@ function App() {
                     usedKeys={usedKeys}
                 />
             </main>
+            {/* footer */}
             <Footer />
+            {/* Toaster */}
             <Toaster />
-
+            {/* modal */}
             <Modal
                 open={open}
                 onClose={onCloseModal}
